@@ -36,5 +36,15 @@ for (i in names(sdata)) {
   sum(grepl("\\?", sdata[[i]]))
 }
 
+# Changing Column classes to numeric
+
+sdata[, 3:9] <- lapply(sdata[,3:9], as.numeric)
+
+
+
+
+
+
+
 
 
