@@ -30,7 +30,7 @@ sdata <- data %>%
   filter(Date == dmy("01/02/2007") | Date == dmy("02/02/2007"))
 
 
-# Checking if the data contains missing values coded as "?"
+# Checking if the data contains missing values coded as "?".
 
 for (i in names(sdata)) {
   sum(grepl("\\?", sdata[[i]]))

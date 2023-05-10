@@ -4,7 +4,7 @@
 png(filename = "Plot4.png", width = 480, height = 480)
 
 
-# The plot
+# The plot.
 
 par(mfrow = c(2,2))
 

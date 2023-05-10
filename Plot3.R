@@ -12,6 +12,6 @@ plot(sdata$date_time, sdata$Sub_metering_1,
                   col = c("black", "red", "blue"),
                   lwd = 2)
 
-# Closes the png graphing device
+# Closes the png graphing device.
     
 dev.off()

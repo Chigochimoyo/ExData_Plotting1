@@ -12,7 +12,7 @@ hist(sdata$Global_active_power,
      xlab = "Global Active Power(kilowatts)",
      main = "Global Active Power")
 
-# Resets Graphing Device 
+# Resets Graphing Device.
 
 dev.off()
 

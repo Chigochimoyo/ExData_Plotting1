@@ -17,7 +17,7 @@ sdata <- cbind(date_time, sdata)
 png(filename= "Plot2.png", width = 480, height = 480)
 
 
-# The plot
+# The plot.
 
 with(sdata,
      plot(date_time, Global_active_power, 
